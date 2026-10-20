@@ -40,6 +40,7 @@ uv run python -m app.ask "LoRAとは何ですか？"
 app/
   config.py      モデル名とAPIキーの読み込み
   ask.py         第1回：LLMに質問する
+  ask_many_times.py  会話履歴を保ちながら続けて質問する
   tools.py       第3回：エージェントのツール（用語集の検索など）
   agent.py       第3回：Pydantic AI の学習支援エージェント（第5回：--mcp で MCP 経由）
   mcp_server.py  第5回：用語集を公開する MCP サーバー
